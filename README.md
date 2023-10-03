@@ -33,7 +33,7 @@ First, we checked the data for duplicates to avoid biasing the performance of th
 We performed a random forest regression analysis based on selected features to provide information about the importance of each feature in CO2 emissions. These importances represent the relative contribution of each feature to the prediction task as determined by the trained Random Forest Regressor model. It indicates that "Energy production" 41,5% and "Energy consumption" 56.1% are the most important features for predicting CO2 emissions, while "Population" and "GDP" have comparatively less influence.
 
 ### Classification: Decision Tree & Random Forest
-2)	We use a data mining workflow for classification using a decision tree and random forest classifier. It filters the dataset, performs data preprocessing, trains the classifier, predicts CO2 emission categories, evaluates the model's performance, and provides visualizations of feature importances and confusion matrix.
+We use a data mining workflow for classification using a decision tree and random forest classifier. It filters the dataset, performs data preprocessing, trains the classifier, predicts CO2 emission categories, evaluates the model's performance, and provides visualizations of feature importances and confusion matrix.
 
 For the Decision Tree Classifier:
 Accuracy: The accuracy of the model is 0.9551, indicating that it correctly predicts the CO2 emission category for approximately 95.51% of the instances in the test set.
