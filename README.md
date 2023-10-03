@@ -97,6 +97,8 @@ The interpolate() method uses various interpolation techniques to fill the missi
 
 ## Setup & Requirements
 Instructions on how to clone the repository, install necessary packages:
+git clone [repository-link]
+
 pandas>=1.3.0
 numpy>=1.21.0
 matplotlib>=3.4.0
