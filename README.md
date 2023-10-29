@@ -1,7 +1,8 @@
 # Energy Forecasting: Data Mining & Predictive Analysis
 
 ## Project Overview
-This repository explores various data mining and machine learning approaches towards predicting, classifying, and understanding the relationships and patterns in global energy consumption and CO2 emissions. Leveraging a rich dataset, we delve deep into Random Forest Regression, Decision Trees, Clustering, Association Rule Mining, and Time Series Forecasting to unearth insights and forecasts pertinent to World Energy dynamics. *If you want to see all the plots download the html file. [View HTML file](https://github.com/symeon158/World_Energy_Forecasting/blob/main/Data%20Mining%20Symeon_Papadopoulos.html)
+This repository explores various data mining and machine learning approaches towards predicting, classifying, and understanding the relationships and patterns in global energy consumption and CO2 emissions. Leveraging a rich dataset, we delve deep into Random Forest Regression, Decision Trees, Clustering, Association Rule Mining, and Time Series Forecasting to unearth insights and forecasts pertinent to World Energy dynamics. *If you want to see all the plots download the html file. [View HTML file]([your_onedrive_link](https://1drv.ms/u/s!AiFPoorne5KpjFzNKh2BScfxDM60?e=Zayaaa))
+
 
 
 
