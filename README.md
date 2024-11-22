@@ -53,6 +53,9 @@ Classification Report: The classification report shows high precision, recall, a
 The macro avg F1-score is 0.97, indicating excellent overall performance. The weighted avg F1-score is 0.97, taking into account class imbalance, and providing an average F1-score weighted by support.
 In summary, both models perform well, but the Random Forest Classifier demonstrates slightly better overall performance compared to the Decision Tree Classifier, as reflected by higher accuracy and F1-scores.
 
+![image](https://github.com/user-attachments/assets/c3444079-a04d-47b7-a781-4b81c1f6a6e7)
+
+
 ### Association Rule Mining: Apriori Algorithm
 We apply a data mining workflow for association rule mining using the Apriori algorithm. This model performs association rule mining on a dataset with categorical variables. It filters the dataset, discretizes the CO2 emission column, encodes transactions, finds frequent itemsets using the Apriori algorithm, generates association rules, filters the rules based on desired relationships, and prints the filtered rules.
 
@@ -68,6 +71,9 @@ This association has a positive relationship (lift of 1.14), indicating that "na
 
 These findings suggest that there are notable associations between specific energy types and the CO2 emission category of "high." The presence of "petroleum_n_other_liquids" demonstrates a strong positive relationship with a "high" CO2 emission category, while the presence of "natural_gas" indicates a moderate association. These associations can provide insights into the impact of different energy types on CO2 emissions and can inform decision-making in energy and environmental policies.
 
+![image](https://github.com/user-attachments/assets/7a7efd12-2f43-4947-8403-f87e6ea706a0)
+
+
 ### Clustering: KMeans Algorithm
 Clustering analysis to group continents based on their total CO2 emissions. This model clusters continents based on their total CO2 emissions using the KMeans algorithm. It groups the data by continent and calculates the sum of CO2 emissions for each continent. Then, it applies KMeans clustering to assign continents to one of the three clusters based on their CO2 emission levels. Based on the results, the continents are grouped into three clusters:
 
@@ -77,11 +83,20 @@ Cluster 1: This cluster includes Europe and North America. These continents have
 
 Cluster 2: This cluster consists of Asia. Asia has the highest total CO2 emissions among all continents. This information can be useful for understanding global emissions trends, identifying regions with similar emission profiles, and informing policy decisions related to environmental sustainability and climate change.
 
+![image](https://github.com/user-attachments/assets/c20d42db-8d2d-4f1c-b655-f6460fae732c)
+
+
 ### Regression Analysis: XGBoost
 We perform regression analysis using the XGBoost algorithm to predict CO2 emissions based on energy consumption, energy production, GDP, and population data. This model trains an XGBoost regression model to predict CO2 emissions and evaluates its performance using mean squared error. It then uses the trained model to predict CO2 emissions for the year 2020 for each continent and the top 11 countries with the highest CO2 emissions. For this model we did not standardize the data because tree-based models like XGBoost are often considered scale invariant, meaning that they can handle features on different scales. This is because these models are based on a series of binary splits, so the actual scale of the features doesn't necessarily impact the model's performance.
 
+![image](https://github.com/user-attachments/assets/30783cd2-e88f-40ae-9c59-d26eadd98011)
+
+
 ### Time Series Forecasting: ARIMA
 Utilized the ARIMA model to foresee CO2 emissions for each continent in the years 2020 through 2023, assisting in understanding future emission trajectories and potential implications.
+
+![image](https://github.com/user-attachments/assets/c45baf6b-e4af-4459-afc4-ad43b9e40ed9)
+
 
 ## Results & Insights
 The application of various data mining and predictive analytics methodologies brought forth a multitude of insights and predictions regarding global energy consumption and CO2 emissions. The detailed results of each methodology, along with visualizations, are discussed in the respective Jupyter notebooks and the pdf file. *If you want to see all the plots download the html file.
